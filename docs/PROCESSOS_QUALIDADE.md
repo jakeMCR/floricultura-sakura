@@ -1,88 +1,88 @@
-1. Regras de Versionamento (GitFlow Simplificado)
+Regras de Versionamento (GitFlow Simplificado)
+Branches utilizadas
 
-Adicionar no documento:
+main — versão estável
 
-Branches oficiais
+develop — integração
 
-main → versão estável (produção)
+feature/* — desenvolvimento de funcionalidades
 
-develop → integração das features
+hotfix/* — correções urgentes
 
-feature/ → desenvolvimento de funcionalidades
-Ex.: feature/cadastro-usuario
+release/* — preparação de versões (opcional)
 
-hotfix/ → correções urgentes
+Fluxo de Trabalho
 
-release/ (opcional) → preparar versões estáveis
+Criar branch feature/nome-da-feature.
 
-Como trabalhar
+Desenvolver a funcionalidade.
 
-Criar branch feature/nome-da-feature
+Testar localmente.
 
-Commits pequenos e descritivos
+Abrir Pull Request para develop.
 
-Abrir Pull Request para develop
+Passar pela revisão de código.
 
-Code review obrigatório
+Após aprovado → merge em develop.
 
-Merge só quando:
+Quando o ciclo terminar → merge para main.
 
-PR aprovado
+2. Checklist de Code Review
 
-Testes manuais OK
+Antes de aprovar um PR, o revisor deve verificar:
 
-DoD completo
+✔ Qualidade do código
 
-2. Checklist de Code Review (para colocar em docs/)
-Checklist de Revisão
-
- Código segue formatação padrão
+ Legível e bem organizado
 
  Nome de variáveis e funções claros
 
- Nenhum “console.log” / “print” de debug
+ Sem código morto ou duplicado
 
- Tratamento de erro implementado
+ Sem prints/console.log
 
- Nenhum dado sensível no código
+✔ Boas práticas
 
- Comportamento testado localmente
+ Padrão de commits seguido
 
- Documentação atualizada
+ Tratamento de erros básico implementado
 
- Commit e PR bem descritos
+ Código simples e direto (KISS)
 
- Código não quebra funcionalidades existentes
+ Sem violações evidentes de segurança
 
-3. Atualização da DoD – Definition of Done
-Definition of Done — Floricultura Sakura
+✔ Testes
 
-Para considerar uma história concluída, deve atender:
+ Testes manuais realizados
 
-1. Código
+ Cenários do Plano de Testes atendidos
 
-O código está na branch correta (feature/*).
+ Prints anexados (quando aplicável)
 
-PR aberto e revisado.
+✔ Documentação
 
-Sem warnings ou erros no build.
+ README atualizado
 
-2. Testes
+ Alterações descritas no PR
 
-Teste manual executado.
+ Comentários adicionados quando necessário
 
-Cenário de teste documentado.
+3. Atualização do DoD
 
-Evidências anexadas (print, vídeo).
+O DoD foi atualizado para incluir:
 
-3. Qualidade
+Regras de versionamento com GitFlow
 
-Code review concluído com checklist marcado.
+Checklist completo de code review
 
-Documentação atualizada (README, arquivos /docs).
+Execução obrigatória de testes manuais
 
-4. Aceitação
+Evidências de teste
 
-Product Owner validou a entrega.
+Validação da Product Owner
 
-História movida para “Done”.
+Critérios de documentação
+
+Critérios para Pull Request
+
+📌 O DoD completo está no arquivo DoD.md.
