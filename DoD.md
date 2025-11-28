@@ -12,6 +12,6 @@ Qualidade de código:
 
 Entrega:
 - Feature testada no ambiente local.
-- Atualização do CHANGELOG (se houver).
+- Atualização do CHANGELOG.
 - Merge feito via Pull Request para `develop` (e depois para `main`).
 
