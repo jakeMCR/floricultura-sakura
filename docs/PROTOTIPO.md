@@ -7,11 +7,10 @@ Início do protótipo
 Tela inicial (Login / Bem-vinda)
 
 Primeiro ponto de partida do fluxo.
-
 A tela inicial obriga o usuário a logar ou criar conta.
 
-✅ Caminhos possíveis
-Ação do usuário	Fluxo resultante / tela de destino
+Caminhos possíveis
+Ação do usuário	        Fluxo resultante / tela de destino
 Clicar em “Criar conta”	Vai para a Tela de Cadastro (registro)
 Inserir dados e clicar “Entrar”	Vai para o Catálogo de Arranjos
 Após cadastro e confirmação	Também vai para o Catálogo de Arranjos
