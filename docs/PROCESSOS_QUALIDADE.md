@@ -1,4 +1,4 @@
-✅ 1. Regras de Versionamento (GitFlow Simplificado)
+1. Regras de Versionamento (GitFlow Simplificado)
 
 Adicionar no documento:
 
@@ -33,7 +33,7 @@ Testes manuais OK
 
 DoD completo
 
-✅ 2. Checklist de Code Review (para colocar em docs/)
+2. Checklist de Code Review (para colocar em docs/)
 Checklist de Revisão
 
  Código segue formatação padrão
@@ -54,7 +54,7 @@ Checklist de Revisão
 
  Código não quebra funcionalidades existentes
 
-✅ 3. Atualização da DoD – Definition of Done
+3. Atualização da DoD – Definition of Done
 Definition of Done — Floricultura Sakura
 
 Para considerar uma história concluída, deve atender:
