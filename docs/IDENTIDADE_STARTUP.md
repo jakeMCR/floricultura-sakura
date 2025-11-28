@@ -1,0 +1,1 @@
+A Floricultura Sakura tem a missão proporcionar momentos especiais por meio de flores naturais e arranjos criativos, oferecendo produtos de qualidade, atendimento acolhedor e entregas rápidas, transformando sentimentos em gestos inesquecíveis.
