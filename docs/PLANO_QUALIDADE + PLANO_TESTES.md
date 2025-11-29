@@ -1,155 +1,233 @@
-1. Objetivo
+Plano de Qualidade 
 
-Garantir que o aplicativo da Floricultura Sakura siga padrões mínimos de qualidade, organização, versionamento e validação.
+1. Objetivo 
 
-📌 2. O que será validado
-Funcional
+Garantir que o aplicativo da Floricultura Sakura siga padrões mínimos de qualidade, organização, versionamento e validação. 
 
-Cadastro e login
+2. O que será validado 
 
-Catálogo de arranjos
+Funcional 
 
-Detalhes do produto
+Cadastro e login 
 
-Carrinho
+Catálogo de arranjos 
 
-Finalização de pedido
+Detalhes do produto 
 
-Agendamento de entrega
+Carrinho 
 
-Não funcional
+Finalização de pedido 
 
-Usabilidade
+Agendamento de entrega 
 
-Responsividade
+Não funcional 
 
-Disponibilidade mínima
+Usabilidade 
 
-Segurança básica
+Responsividade 
 
-📌 3. Responsáveis
-Atividade	Responsável
-Code Review	Ana (Scrum Master / Dev)
-Organização das branches	Ana
-Aprovação final das histórias	Jaqueline (PO)
-Testes manuais	Ambas
-Atualização dos documentos	Jaqueline
-📌 4. Como as revisões serão evidenciadas
+Disponibilidade mínima 
 
-Prints do GitHub (Pull Requests, commits, merges)
+Segurança básica 
 
-Arquivos salvos em /docs/testes
+3. Responsáveis 
 
-Capturas de tela do aplicativo (Protótipo ou simulação)
+Atividade 
 
-Checklist do code review anexado
+Responsável 
 
-Comentários de validação do PO
+Code Review 
 
-📌 5. Critérios de Qualidade do Projeto
+Ana (Scrum Master / Dev) 
 
-Código organizado em pastas
+Organização das branches 
 
-Nome de cada arquivo e função deve representar o que faz
+Ana 
 
-Commits claros com padrão:
+Aprovação final das histórias 
 
-feat: descrição
+Jaqueline (PO) 
 
-fix: descrição
+Testes manuais 
 
-docs: descrição
+Ambas 
 
-chore: descrição
+Atualização dos documentos 
 
-Figma consistente com o protótipo
+Jaqueline 
 
-Minimizar retrabalho
+ 
 
-Documentação sempre atualizada
+ 
 
-📌 6. Padrão de Comunicação
+4. Como as revisões serão evidenciadas 
 
-WhatsApp (grupo interno) → comunicação rápida
+Prints do GitHub (Pull Requests, commits, merges) 
 
-GitHub Issues → histórico técnico
+Arquivos salvos em /docs/testes 
 
-Plano de Testes
+Capturas de tela do aplicativo (Protótipo ou simulação) 
 
-📌 1. Objetivo do Plano de Testes
+Checklist do code review anexado 
 
-Verificar o funcionamento correto das funcionalidades principais do MVP e garantir que os fluxos básicos estejam sem erros.
+Comentários de validação do PO 
 
-📌 2. Escopo dos Testes
+5. Critérios de Qualidade do Projeto 
 
-Serão testados:
+Código organizado em pastas 
 
-Cadastro
+Nome de cada arquivo e função deve representar o que faz 
 
-Login
+Commits claros com padrão: 
 
-Catálogo
+feat: descrição 
 
-Detalhes do produto
+fix: descrição 
 
-Adicionar/remover do carrinho
+docs: descrição 
 
-Finalizar pedido
+chore: descrição 
 
-Agendar entrega
+Figma consistente com o protótipo 
 
-📌 3. Tipos de Testes
+Minimizar retrabalho 
 
-Teste Funcional Manual
+Documentação sempre atualizada 
 
-Teste de Interface e Navegação
+6. Padrão de Comunicação 
 
-Teste de Usabilidade (simples)
+WhatsApp (grupo interno) → comunicação rápida 
 
-Teste de Aceitação do PO
+GitHub Issues → histórico técnico 
 
-📌 4. Ambiente de Testes
+Documento Sprint/Backlog → registro da entrega 
 
-Protótipo no Figma
+Plano de Testes 
 
-Simulação do fluxo no navegador (modo protótipo)
+1. Objetivo do Plano de Testes 
 
-Prints como evidência
+Verificar o funcionamento correto das funcionalidades principais do MVP e garantir que os fluxos básicos estejam sem erros. 
 
-📌 5. Casos de Teste (prontos para colar no documento)
-CT01 – Cadastro
-Item	Descrição
-Objetivo	Confirmar que o usuário consegue se cadastrar
-Pré-condição	Tela de cadastro aberta
-Passo a passo	Preencher nome, telefone, endereço → clicar confirmar
-Resultado esperado	Cadastro criado e ir para catálogo
-CT02 – Login
-Item	Descrição
-Objetivo	Verificar login com dados válidos
-Passo a passo	Inserir telefone + senha
-Resultado esperado	Acessa o catálogo
-CT03 – Ver catálogo
-Item	Descrição
-Objetivo	Validar listagem de arranjos
-Resultado esperado	Imagens, nomes e preços exibidos corretamente
-CT04 – Ver detalhes
+2. Escopo dos Testes 
 
-| Resultado esperado | Detalhes completos + botão “Adicionar ao carrinho” |
+Serão testados: 
 
-CT05 – Adicionar ao carrinho
+Cadastro 
 
-| Resultado esperado | Item aparece no carrinho com subtotal atualizado |
+Login 
 
-CT06 – Remover item
+Catálogo 
 
-| Resultado esperado | Item some do carrinho e subtotal atualiza |
+Detalhes do produto 
 
-CT07 – Finalizar pedido
+Adicionar/remover do carrinho 
 
-| Resultado esperado | Número do pedido gerado |
+Finalizar pedido 
 
-CT08 – Agendar entrega
+Agendar entrega 
 
-| Resultado esperado | Data e período salvos corretamente |
+3. Tipos de Testes 
 
-Documento Sprint/Backlog → registro da entrega
+Teste Funcional Manual 
+
+Teste de Interface e Navegação 
+
+Teste de Usabilidade (simples) 
+
+Teste de Aceitação do PO 
+
+ 
+
+4. Ambiente de Testes 
+
+Protótipo no Figma 
+
+Simulação do fluxo no navegador (modo protótipo) 
+
+Prints como evidência 
+
+5. Casos de Teste (prontos para colar no documento) 
+
+CT01 – Cadastro 
+
+Item 
+
+Descrição 
+
+Objetivo 
+
+Confirmar que o usuário consegue se cadastrar 
+
+Pré-condição 
+
+Tela de cadastro aberta 
+
+Passo a passo 
+
+Preencher nome, telefone, endereço → clicar confirmar 
+
+Resultado esperado 
+
+ 
+
+Cadastro criado e ir para catálogo 
+
+CT02 – Login 
+
+Item 
+
+Descrição 
+
+Objetivo 
+
+Verificar login com dados válidos 
+
+Passo a passo 
+
+Inserir telefone + senha 
+
+Resultado esperado 
+
+Acessa o catálogo 
+
+ 
+
+CT03 – Ver catálogo 
+
+Item 
+
+Descrição 
+
+Objetivo 
+
+Validar listagem de arranjos 
+
+Resultado esperado 
+
+Imagens, nomes e preços exibidos corretamente 
+
+ 
+
+CT04 – Ver detalhes 
+
+| Resultado esperado | Detalhes completos + botão “Adicionar ao carrinho” | 
+
+CT05 – Adicionar ao carrinho 
+
+| Resultado esperado | Item aparece no carrinho com subtotal atualizado | 
+
+CT06 – Remover item 
+
+| Resultado esperado | Item some do carrinho e subtotal atualiza | 
+
+CT07 – Finalizar pedido 
+
+| Resultado esperado | Número do pedido gerado | 
+
+CT08 – Agendar entrega 
+
+| Resultado esperado | Data e período salvos corretamente | 
+
+ 
+
+
