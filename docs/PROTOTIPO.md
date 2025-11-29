@@ -26,7 +26,7 @@ Ações possíveis no catálogo
 
 Clicar em um produto → leva à Tela de Detalhes do Produto
 
-Clicar ícone de carrinho (se houver) → leva ao carrinho (dependendo protótipo)
+Clicar ícone de carrinho → leva ao carrinho 
 
 Detalhes do Produto
 
