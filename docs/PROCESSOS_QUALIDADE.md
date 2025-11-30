@@ -85,4 +85,4 @@ Critérios de documentação
 
 Critérios para Pull Request
 
-📌 O DoD completo está no arquivo DoD.md.
+O DoD completo está no arquivo DoD.md.
